@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "m05-influxdb-grafana-project"
+version = "0.1.0"
+description = ""
+authors = ["Joris Heylen <r0807866@student.thomasmore.be>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
