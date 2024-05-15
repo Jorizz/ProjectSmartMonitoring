@@ -12,3 +12,7 @@ python = "^3.11"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+app = "m05_influxdb_grafana_project:main"
+
